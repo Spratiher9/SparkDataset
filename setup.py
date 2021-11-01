@@ -15,7 +15,7 @@ setup(
                  "Pyspark (in dataframe structure)."),
     author='Souvik Pratiher',
     url='https://github.com/Spratiher9/SparkDataset',
-    # download_url='https://github.com/Spratiher9/SparkDataset/tarball/0.1.0',
+    download_url='https://github.com/Spratiher9/SparkDataset/archive/refs/tags/0.1.0.tar.gz',
     license = 'MIT',
     author_email='spratiher9@gmail.com',
     version='0.1.0',

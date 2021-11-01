@@ -61,7 +61,7 @@ For example,
 
 **0.1.0**
 
-- Add search dataset by name similarity.
+- Added search dataset by name similarity.
 - Example:
 
 ```python
@@ -70,7 +70,7 @@ Did you mean:
 Wheat, heart, Heating, Yeast, eidat, badhealth, deaths, agefat, hla, heptathlon, azt
 ```
 
-- Fix: add support to Windows and fix filepaths, issue #1
+- Added support to Windows.
 
 ### Dependency:
 - pandas
