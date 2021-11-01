@@ -104,8 +104,8 @@ for k in unifiable.keys():
 def onlywhite(line):
     """Return true if the line does only consist of whitespace characters."""
     for c in line:
-        if c is not ' ' and c is not '  ':
-            return c is ' '
+        if c != ' ' and c != '  ':
+            return c == ' '
     return line
 
 
@@ -221,7 +221,7 @@ class HTML2Text(HTMLParser.HTMLParser):
         self.emphasis_mark = '_'
         self.strong_mark = '**'
 
-        if out is None:
+        if out == None:
             self.out = self.outtextf
         else:
             self.out = out
@@ -399,7 +399,7 @@ class HTML2Text(HTMLParser.HTMLParser):
 
     def handle_tag(self, tag, attrs, start):
         # attrs = fixattrs(attrs)
-        if attrs is None:
+        if attrs == None:
             attrs = {}
         else:
             attrs = dict(attrs)
@@ -513,7 +513,7 @@ class HTML2Text(HTMLParser.HTMLParser):
                             self.o("](" + escape_md(a['href']) + ")")
                         else:
                             i = self.previousIndex(a)
-                            if i is not None:
+                            if i != None:
                                 a = self.a[i]
                             else:
                                 self.acount += 1
@@ -532,7 +532,7 @@ class HTML2Text(HTMLParser.HTMLParser):
                     self.o("(" + escape_md(attrs['href']) + ")")
                 else:
                     i = self.previousIndex(attrs)
-                    if i is not None:
+                    if i != None:
                         attrs = self.a[i]
                     else:
                         self.acount += 1
@@ -605,7 +605,7 @@ class HTML2Text(HTMLParser.HTMLParser):
         self.br_toggle = '  '
 
     def o(self, data, puredata=0, force=0):
-        if self.abbr_data is not None:
+        if self.abbr_data != None:
             self.abbr_data += data
 
         if not self.quiet:
@@ -696,7 +696,7 @@ class HTML2Text(HTMLParser.HTMLParser):
         if self.style:
             self.style_def.update(dumb_css_parser(data))
 
-        if not self.maybe_automatic_link is None:
+        if not self.maybe_automatic_link == None:
             href = self.maybe_automatic_link
             if href == data and self.absolute_url_matcher.match(href):
                 self.o("<" + data + ">")
@@ -916,7 +916,7 @@ def main():
             baseurl = file_
             j = urllib.urlopen(baseurl)
             data = j.read()
-            if encoding is None:
+            if encoding == None:
                 try:
                     from feedparser import _getCharacterEncoding as enc
                 except ImportError:
@@ -926,7 +926,7 @@ def main():
                     encoding = 'utf-8'
         else:
             data = open(file_, 'rb').read()
-            if encoding is None:
+            if encoding == None:
                 try:
                     from chardet import detect
                 except ImportError:

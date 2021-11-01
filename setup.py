@@ -8,6 +8,9 @@ try:
 except ImportError:
     from distutils.core import setup
 
+with open(('README.md'), encoding='utf-8') as readme:
+    bdescription = readme.read()
+
 
 setup(
     name='sparkdataset',
@@ -19,7 +22,17 @@ setup(
     license = 'MIT',
     author_email='spratiher9@gmail.com',
     version='0.1.0',
+    long_description=bdescription,
+    long_description_content_type='text/markdown',
+    keywords=['Spark', 'Apache Spark', 'benchmarking', 'data', 'datasets', 'standard data'],
     install_requires=['pandas','pyspark==3.1.2'],
     packages=['sparkdataset', 'sparkdataset.utils'],
-    package_data={'sparkdataset': ['*.gz', 'resources.tar.gz']}
+    package_data={'sparkdataset': ['*.gz', 'resources.tar.gz']},
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers and Programmers',
+        'Topic :: Benchmarking',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.10'
+    ]
 )
