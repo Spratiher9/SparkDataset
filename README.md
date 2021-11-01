@@ -12,7 +12,7 @@ Is there a quick way (in Pyspark) to access them instantly without going through
 SparkDataset tries to address that question :)
 
 
-### Usage:
+### Usage: Continue reading below or go to this [notebook](./how_to_use/sparkdataset.ipynb) 
 
 Start with importing `data()`:
 ```python
