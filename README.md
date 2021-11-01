@@ -30,6 +30,13 @@ data('titanic', show_doc=True)
 ```python
 data()
 ```
+- To search for datasets with terms
+```python
+data('ab')
+
+Did you mean:
+crabs, abbey, Vocab
+```
 
 That's it.
 
