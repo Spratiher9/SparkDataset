@@ -1,4 +1,4 @@
-## PyDataset
+## SparkDataset
 
 [comment]: <> ( [![PyPI version]&#40;https://badge.fury.io/py/pydataset.svg&#41;]&#40;http://badge.fury.io/py/pydataset&#41;)
 
