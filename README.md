@@ -5,6 +5,8 @@
 
 Provides instant access to many datasets right from Pyspark (in Spark DataFrame structure).
 
+Drop a star if you like the project.😃 Motivates💪 me to keep working on such projects
+
 ### What?
 
 The idea is simple. There are various datasets available out there, but they are scattered in different places over the web.
