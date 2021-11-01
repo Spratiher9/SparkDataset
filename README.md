@@ -14,7 +14,7 @@ Is there a quick way (in Pyspark) to access them instantly without going through
 SparkDataset tries to address that question :)
 
 
-### Usage: Continue reading below or go to this [notebook](./how_to_use/sparkdataset.ipynb) 
+### Usage:  
 
 Start with importing `data()`:
 ```python
@@ -42,6 +42,7 @@ crabs, abbey, Vocab
 
 That's it.
 
+Go to this [notebook](./how_to_use/sparkdataset.ipynb) for a demonstration of the functionality
 
 ### Why?
 
