@@ -1,6 +1,6 @@
 <a href="https://ibb.co/Lgpwxmq"><img src="https://i.ibb.co/t2CfqgN/sparkdatasets.png" alt="sparkdatasets" class="Center" border="0"></a>
 
-## SparkDataset
+## SparkDataset  [![PyPI version](https://badge.fury.io/py/sparkdataset.svg)](https://badge.fury.io/py/sparkdataset)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Spratiher9/SparkDataset/graphs/commit-activity)
 
 
 Provides instant access to many datasets right from Pyspark (in Spark DataFrame structure).
