@@ -1,6 +1,7 @@
+<a href="https://ibb.co/Lgpwxmq"><img src="https://i.ibb.co/t2CfqgN/sparkdatasets.png" alt="sparkdatasets" class="Center" border="0"></a>
+
 ## SparkDataset
 
-[comment]: <> ( [![PyPI version]&#40;https://badge.fury.io/py/pydataset.svg&#41;]&#40;http://badge.fury.io/py/pydataset&#41;)
 
 Provides instant access to many datasets right from Pyspark (in Spark DataFrame structure).
 
