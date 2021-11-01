@@ -30,8 +30,8 @@ setup(
     package_data={'sparkdataset': ['*.gz', 'resources.tar.gz']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Developers and Programmers',
-        'Topic :: Benchmarking',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.10'
     ]
