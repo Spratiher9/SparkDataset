@@ -59,7 +59,7 @@ For example,
 
 ### Changelog
 
-**0.1.0**
+**1.0.0**
 
 - Added search dataset by name similarity.
 - Example:
