@@ -101,3 +101,7 @@ Wheat, heart, Heating, Yeast, eidat, badhealth, deaths, agefat, hla, heptathlon,
 #### Thanks to:
 
 - [RDatasets](https://github.com/vincentarelbundock/Rdatasets): R's datasets collection.  
+
+#### Logo Credits:
+
+The logo credit goes to [Aleksandar Savic](https://dribbble.com/shots/14951213-Cloud-sketch)
